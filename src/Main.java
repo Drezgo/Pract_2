@@ -17,49 +17,6 @@ public class Main {
         else if (b3 >= b2 & b3 >= b1) System.out.println("Найбільше число " + b3);
 
         // 3 Завдання
-        /*
-        String direction = "До низу";
-        int floor = 5;
-        if (direction == "До гори"){
-            if (floor == 1)
-                System.out.println("Ви піднялись на 1 поверх");
-            else if (floor == 3 | floor == 2)
-                System.out.println("Ви піднялись на 3 поверх");
-            else if (floor == 4)
-                System.out.println("Ви піднялись на 4 поверх");
-            else if (floor == 5)
-                System.out.println("Ви піднялись на 5 поверх");
-            else if (floor == 6)
-                System.out.println("Ви піднялись на 6 поверх");
-            else if (floor == 7)
-                System.out.println("Ви піднялись на 7 поверх");
-            else if (floor == 8)
-                System.out.println("Ви піднялись на 8 поверх");
-            else if (floor == 9)
-                System.out.println("Ви піднялись на 9 поверх");
-            else
-                System.out.println("Ви вказали неіснуючий поверх!");
-            }
-        if (direction == "До низу"){
-            if (floor == 9)
-                System.out.println("Ви спустились на 9 поверх");
-            else if (floor == 8)
-                System.out.println("Ви спустились на 8 поверх");
-            else if (floor == 7)
-                System.out.println("Ви спустились на 7 поверх");
-            else if (floor == 6)
-                System.out.println("Ви спустились на 6 поверх");
-            else if (floor == 5)
-                System.out.println("Ви спустились на 5 поверх");
-            else if (floor == 4)
-                System.out.println("Ви спустились на 4 поверх");
-            else if (floor == 3)
-                System.out.println("Ви спустились на 3 поверх");
-            else if (floor == 1 | floor == 2)
-                System.out.println("Ви спустились на 1 поверх");
-            else
-                System.out.println("Ви вказали неіснуючий поверх!");
-            }*/
 
         String direction = "До гори";
         int floor = 5;
@@ -139,25 +96,6 @@ public class Main {
             if (n11<3600) System.out.println("До кінця робочого дня залишилось менше 1 години");
             else System.out.println("До кінця робочого дня залишилось "+g+" годин(и)");
         }
-
-
-
-
-
-
-
-        //for (int i = 10; i<100;i *=2) System.out.println(i);
-
-
-
-
-
-
-
-
-
-
-
 
 
     }
